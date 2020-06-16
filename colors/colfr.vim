@@ -30,8 +30,8 @@ hi DiffChange ctermfg=Yellow
 
 hi SignColumn guibg=NONE
 hi GitGutterAdd ctermfg=Green guibg=NONE
-hi GitGutterChange ctermfg=Red guibg=NONE
-hi GitGutterDelete ctermfg=Yellow guibg=NONE
+hi GitGutterChange ctermfg=Yellow guibg=NONE
+hi GitGutterDelete ctermfg=Red guibg=NONE
 
 " 8 color
 if &t_Co == 8
