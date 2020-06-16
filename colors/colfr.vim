@@ -28,6 +28,11 @@ hi DiffAdd ctermfg=Green
 hi DiffDelete ctermfg=Red guifg=Red
 hi DiffChange ctermfg=Yellow
 
+hi SignColumn guibg=NONE
+hi GitGutterAdd guibg=NONE
+hi GitGutterChange guibg=NONE
+hi GitGutterDelete guibg=NONE
+
 " 8 color
 if &t_Co == 8
 	hi MatchParen ctermbg=7 ctermfg=0
