@@ -13,7 +13,7 @@ hi Search ctermfg=0 ctermbg=7 guibg=#888888
 hi CursorLineNr ctermfg=7 cterm=Bold guifg=#b9a28f
 hi VertSplit cterm=None
 
-hi Pmenu ctermfg=Black ctermbg=Grey
+hi Pmenu ctermfg=Black ctermbg=Grey guibg=Grey
 hi PmenuSel ctermfg=White ctermbg=DarkGrey
 
 hi TabLine cterm=None ctermfg=Black ctermbg=Grey
