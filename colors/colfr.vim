@@ -35,31 +35,31 @@ hi GitGutterDelete ctermfg=Red guibg=NONE
 
 " 8 color
 if &t_Co == 8
-	hi MatchParen ctermbg=7 ctermfg=0
-	hi LineNr ctermfg=0 cterm=Bold
-	hi CursorLine cterm=None
-	hi Visual cterm=None ctermfg=0 ctermbg=7
+  hi MatchParen ctermbg=7 ctermfg=0
+  hi LineNr ctermfg=0 cterm=Bold
+  hi CursorLine cterm=None
+  hi Visual cterm=None ctermfg=0 ctermbg=7
 
-	hi Todo ctermbg=3
-	hi Comment ctermfg=0 cterm=Bold
-	hi Noise cterm=Bold
-	hi Operator ctermfg=Red cterm=Bold
+  hi Todo ctermbg=3
+  hi Comment ctermfg=0 cterm=Bold
+  hi Noise cterm=Bold
+  hi Operator ctermfg=Red cterm=Bold
 
-	hi PreProc ctermfg=4
-	hi Statement ctermfg=Red cterm=Bold
-	hi Builtin ctermfg=3
+  hi PreProc ctermfg=4
+  hi Statement ctermfg=Red cterm=Bold
+  hi Builtin ctermfg=3
 
-	hi Type ctermfg=2
-	hi Number ctermfg=4 cterm=Bold
-	hi String ctermfg=5
-	hi Special ctermfg=1
+  hi Type ctermfg=2
+  hi Number ctermfg=4 cterm=Bold
+  hi String ctermfg=5
+  hi Special ctermfg=1
 
 " 256 color
 elseif &t_Co == 256
   hi MatchParen ctermbg=243 guibg=#51809b
   hi LineNr ctermfg=240 cterm=None guifg=#365668
   hi CursorLine cterm=None ctermbg=237 guibg=#243945
-	hi Visual cterm=None ctermfg=0 ctermbg=7 guibg=#2c4756
+  hi Visual cterm=None ctermfg=0 ctermbg=7 guibg=#2c4756
 
   hi Todo ctermbg=166 guibg=#d75f00
   hi Comment ctermfg=242 cterm=None guifg=#365668
