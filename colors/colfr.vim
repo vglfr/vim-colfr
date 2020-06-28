@@ -1,28 +1,28 @@
 hi link Boolean Number
 hi link Character String
 
-hi clear Identifier
+" hi clear Identifier
 hi link Identifier Number
 
-hi clear Delimiter
+" hi clear Delimiter
 hi link Delimiter Builtin
 
 hi User1 cterm=Bold
-hi Search ctermfg=0 ctermbg=7 guibg=#888888
+hi Search ctermfg=0 ctermbg=7 guibg=#acc6d5
 
 hi CursorLineNr ctermfg=7 cterm=Bold guifg=#b9a28f
-hi VertSplit cterm=None
+hi VertSplit cterm=NONE
 
-hi Pmenu ctermfg=Black ctermbg=Grey guibg=Grey
-hi PmenuSel ctermfg=White ctermbg=DarkGrey
+hi Pmenu ctermfg=Black ctermbg=Grey guibg=#40677d
+hi PmenuSel ctermfg=White ctermbg=DarkGrey guibg=#253c49
 
-hi TabLine cterm=None ctermfg=Black ctermbg=Grey
-hi TabLineFill cterm=None ctermbg=Grey
+hi TabLine cterm=NONE ctermfg=Black ctermbg=Grey
+hi TabLineFill cterm=NONE ctermbg=Grey
 
-hi Folded ctermfg=None ctermbg=None
+hi Folded ctermfg=NONE ctermbg=NONE
 
-hi StatusLine cterm=None ctermfg=Black ctermbg=White
-hi StatusLineNC cterm=None ctermfg=None ctermbg=White
+hi StatusLine cterm=NONE ctermfg=Black ctermbg=White
+hi StatusLineNC cterm=NONE ctermfg=NONE ctermbg=White
 
 hi DiffAdd ctermfg=Green
 hi DiffDelete ctermfg=Red guifg=Red
@@ -37,8 +37,8 @@ hi GitGutterDelete ctermfg=Red guibg=NONE
 if &t_Co == 8
   hi MatchParen ctermbg=7 ctermfg=0
   hi LineNr ctermfg=0 cterm=Bold
-  hi CursorLine cterm=None
-  hi Visual cterm=None ctermfg=0 ctermbg=7
+  hi CursorLine cterm=NONE
+  hi Visual cterm=NONE ctermfg=0 ctermbg=7
 
   hi Todo ctermbg=3
   hi Comment ctermfg=0 cterm=Bold
@@ -57,22 +57,22 @@ if &t_Co == 8
 " 256 color
 elseif &t_Co == 256
   hi MatchParen ctermbg=243 guibg=#51809b
-  hi LineNr ctermfg=240 cterm=None guifg=#365668
-  hi CursorLine cterm=None ctermbg=237 guibg=#243945
-  hi Visual cterm=None ctermfg=0 ctermbg=7 guibg=#2c4756
+  hi LineNr ctermfg=240 cterm=NONE guifg=#365668
+  hi CursorLine cterm=NONE ctermbg=237 guibg=#243945
+  hi Visual cterm=NONE ctermfg=0 ctermbg=7 guibg=#2c4756
 
   hi Todo ctermbg=166 guibg=#d75f00
-  hi Comment ctermfg=242 cterm=None guifg=#365668
+  hi Comment ctermfg=242 cterm=NONE guifg=#365668
   hi Noise cterm=Bold
   hi Operator ctermfg=Red cterm=Bold guifg=#ea9c5e
 
   hi PreProc ctermfg=12 guifg=#6699cc
   hi Statement ctermfg=Red cterm=Bold guifg=#ea9c5e
   hi Builtin ctermfg=214 guifg=#ca5721
-  hi Function gui=None guifg=#36cfcf
+  hi Function gui=NONE guifg=#36cfcf
 
   hi Type ctermfg=113 guifg=#8fc076
-  hi Number ctermfg=74 cterm=None guifg=#5fafd7
+  hi Number ctermfg=74 cterm=NONE guifg=#5fafd7
   hi String ctermfg=177 guifg=#cca7df
   hi Special ctermfg=199 guifg=#ff00af
 endif
