@@ -1,11 +1,13 @@
 hi link Boolean Number
 hi link Character String
 
-" hi clear Identifier
+hi clear Identifier
 hi link Identifier Number
 
-" hi clear Delimiter
+hi clear Delimiter
 hi link Delimiter Builtin
+
+hi Error guibg=NONE
 
 hi User1 cterm=Bold
 hi Search ctermfg=0 ctermbg=7 guibg=#acc6d5
