@@ -15,14 +15,8 @@ hi VertSplit cterm=NONE
 hi Pmenu ctermfg=Black ctermbg=Grey guibg=#40677d
 hi PmenuSel ctermfg=White ctermbg=Yellow guibg=#253c49
 
-hi TabLine cterm=NONE ctermfg=Black ctermbg=Grey
-hi TabLineFill cterm=NONE ctermbg=Grey
-
 hi Error ctermbg=NONE guibg=NONE
 hi Folded ctermfg=NONE ctermbg=NONE
-
-hi StatusLine cterm=NONE ctermfg=Black ctermbg=White
-hi StatusLineNC cterm=NONE ctermfg=NONE ctermbg=White
 
 hi SignColumn guibg=NONE
 hi GitGutterAdd ctermfg=Green guibg=NONE
